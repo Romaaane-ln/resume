@@ -128,6 +128,9 @@ export const resumeConfig: ResumeConfig = {
             'Prise en main des outils de gestion de l\'entreprise',
           ],
         },
+        env: {
+          fr: 'Word / Excel / PowerPoint',
+        },
       },
     },
     {
@@ -149,6 +152,9 @@ export const resumeConfig: ResumeConfig = {
             'Observation du fonctionnement d\'un cabinet d\'architectes',
             'Découverte des métiers de l\'architecture et du design',
           ],
+        },
+        env: {
+          fr: 'Outils de conception architecturale',
         },
       },
     },
