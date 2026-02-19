@@ -112,7 +112,7 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'Stage' },
       period: { fr: 'Mai 2023 - Juillet 2023' },
       description: {
-        fr: 'Stage de 1ère année de BTS au sein de l'entreprise AMBP.',
+        fr: 'Stage de 1ère année de BTS au sein de l\'entreprise AMBP.',
       },
       techs: ['Word', 'Excel', 'PowerPoint'],
       details: {
