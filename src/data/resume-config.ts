@@ -8,14 +8,14 @@ export const resumeConfig: ResumeConfig = {
       fr: 'Design • Web • Réseaux',
     },
     subtitle: {
-      fr: 'En reconversion vers les métiers du digital',
+      fr: 'Après l’obtention de mon BTS Management Économie de la Construction, j’ai choisi de me réorienter vers les métiers du digital, plus en phase avec mes aspirations créatives. Passionnée par le design digital, l’identité visuelle et la communication en ligne, je souhaite aujourd’hui développer des compétences concrètes en web design et en gestion de contenus sur les réseaux sociaux, afin de construire progressivement un projet professionnel aligné avec mes intérêts et mes capacités.',
     },
     location: 'Le Havre',
   },
   seo: {
     title: 'Romane Lavenu — Design • Web • Réseaux',
     description: 'CV interactif de Romane Lavenu, passionnée par le design digital, l\'identité visuelle et la communication en ligne.',
-  },
+  },    
   languages: {
     default: 'fr',
     available: ['fr'],
@@ -44,11 +44,11 @@ export const resumeConfig: ResumeConfig = {
         { name: 'Word' },
         { name: 'Excel' },
         { name: 'PowerPoint' },
-        { name: 'AutoCAD', color: '#E51837' },
+        
       ],
     },
     {
-      title: { fr: 'Créatif & Digital' },
+      title: { fr: 'Compétences personnelles' },
       type: 'badges',
       items: [
         { name: 'Design graphique', color: '#FF6B6B' },
@@ -57,13 +57,8 @@ export const resumeConfig: ResumeConfig = {
         { name: 'Réseaux sociaux', color: '#E4405F' },
       ],
     },
-    {
-      title: { fr: 'Compétences métier' },
-      type: 'text',
-      items: [
-        { name: { fr: 'Accueil clients, suivi téléphonique, gestion de mails, devis de chantiers, chiffrage, réponses d\'appels d\'offres' } },
-      ],
-    },
+
+    
     {
       title: { fr: 'Qualités' },
       type: 'text',
@@ -87,9 +82,9 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'Alternance' },
       period: { fr: 'Octobre 2023 - Août 2024' },
       description: {
-        fr: 'Alternance au sein d\'une entreprise spécialisée dans l\'aménagement intérieur, à St Martin du Manoir.',
+        fr: 'Alternance en tant que Technicienne Métreuse & Secrétaire.',
       },
-      techs: ['Word', 'Excel', 'PowerPoint'],
+      techs: ['Word', 'Excel', 'PowerPoint', 'Gestion Commerciale AMBP'],
       isHighlighted: true,
       details: {
         context: {
@@ -103,8 +98,6 @@ export const resumeConfig: ResumeConfig = {
             'Consultations de mails',
             'Mise en place du logiciel de gestion commerciale',
             'Devis de chantiers',
-            'Dessins de plan',
-            'Réponses d\'appels d\'offres',
           ],
         },
         env: {
@@ -119,7 +112,7 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'Stage' },
       period: { fr: 'Mai 2023 - Juillet 2023' },
       description: {
-        fr: 'Stage de 1ère année de BTS au sein de la même entreprise d\'aménagement intérieur.',
+        fr: 'Stage de 1ère année de BTS au sein de l'entreprise AMBP.',
       },
       techs: ['Word', 'Excel', 'PowerPoint'],
       details: {
